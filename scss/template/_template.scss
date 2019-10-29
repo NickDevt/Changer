@@ -1,0 +1,101 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.mp-reset{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.first_block{
+  // background: $first-picture;
+  background-image: url("../assets/img/first.png");
+  background-size: cover;
+  height: 306px;
+}
+
+
+.third_block{
+  background-image: url("../assets/img/third.png");
+  background-size: cover;
+  height:160px;
+}
+
+.fourth_block{
+  background-image: url("../assets/img/fourth.png");
+  background-size: cover;
+  height:435px;
+}
+
+.six_block{
+  background-image: url("../assets/img/six.png");
+  background-size: cover;
+  height:400px;
+}
+
+.pre-last{
+  background: $pre-last-block;
+  height:300px;
+
+}
+
+.last-block{
+  background: $last-block;
+  height:200px;
+}
