@@ -58,7 +58,7 @@ table.button.google table td {
   background: #f3f3f3;
 }
 
-.mp-reset{
+.mp-freset{
   padding: 0px !important;
   margin: 0px !important;
 }
@@ -68,6 +68,12 @@ table.button.google table td {
   background-image: url("../assets/img/first.png");
   background-size: cover;
   height: 306px;
+}
+
+.second-block{
+  background-image: url("../assets/img/second_.png");
+  background-size: cover;
+  height: 430px;
 }
 
 
@@ -81,6 +87,12 @@ table.button.google table td {
   background-image: url("../assets/img/fourth.png");
   background-size: cover;
   height:435px;
+}
+
+.fifth-block{
+  background-image: url("../assets/img/fifth_.png");
+  background-size: cover;
+  height: 430px;
 }
 
 .six_block{
@@ -98,4 +110,48 @@ table.button.google table td {
 .last-block{
   background: $last-block;
   height:200px;
+}
+
+
+
+
+  .header-h1{
+    color: $gold-yellow;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.header-p{
+    color:$last-block;
+    font-size: 14.21px;
+  }
+
+  .second-p{
+
+    color: $dark-gold-yellow;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .white-p{
+    color: $last-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    // font-size: 15px;
+  }
+
+  .alignc{
+    text-align: center;
+  }
+
+  .pw{
+    color: $last-block;
+  }
+
+.link1{
+  color:white;
+  font-size: 18px;
+  text-decoration: underline;
+
 }
